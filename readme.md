@@ -83,7 +83,7 @@ A **stacked regression ensemble** was developed to capture both non-linear and s
 
 1. **Base Models**
 
-   * **ANN:** 5-layer fully connected network — [128, 64, 32, 16, 1] — ReLU activations and 0.25 dropout; optimized with **Huber Loss**.
+   * **ANN:** 5-layer fully connected network [128, 64, 32, 16, 1] with ReLU activations and 0.25 dropout; optimized with **Huber Loss**.
    * **XGBoost Regressor:** Captures monotonic dependencies and rule-based feature relations.
 
 2. **Meta Regressor**
